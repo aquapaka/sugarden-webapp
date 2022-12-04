@@ -29,6 +29,7 @@ export const Wrapper = styled.nav`
   }
   
   .nav-items {
+    color: #024b30;
     font-weight: 600;
     display: flex;
     list-style: none;
@@ -37,8 +38,8 @@ export const Wrapper = styled.nav`
   }
   
   .nav-link {
+    color: #024b30;
     text-decoration: none;
-    color: black;
   }
 
   .nav-link:active {

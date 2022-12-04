@@ -6,7 +6,7 @@ import {Wrapper} from "./NavBar.styles";
 const NavBar = () => {
   return (
     <Wrapper>
-      <img className="logo" src={logo} alt="logo"/>
+      <a href=""><img className="logo" src={logo} alt="logo"/></a>
       <img className="logo-simple" src={logoSimple} alt="logo-simple"/>
       <ul className="nav-items">
         <li><a className="nav-link" href="">Home</a></li>
@@ -15,9 +15,9 @@ const NavBar = () => {
         <li><a className="nav-link" href="">Contact</a></li>
       </ul>
       <ul className="nav-items">
-        <li><i className="fa-solid fa-magnifying-glass"></i></li>
-        <li><i className="fa-solid fa-user"></i></li>
-        <li><i className="fa-solid fa-cart-shopping"></i></li>
+        <li><a className="nav-link" href=""><i className="fa-solid fa-magnifying-glass"></i></a></li>
+        <li><a className="nav-link" href=""><i className="fa-solid fa-user"></i></a></li>
+        <li><a className="nav-link" href=""><i className="fa-solid fa-cart-shopping"></i></a></li>
       </ul>
     </Wrapper>
   )
