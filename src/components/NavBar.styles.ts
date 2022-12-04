@@ -33,13 +33,23 @@ export const Wrapper = styled.nav`
     font-weight: 600;
     display: flex;
     list-style: none;
-    gap: 1vw;
     padding: 0;
+  }
+
+  #searchIcon {
+    width: 20px;
+  }
+  #userIcon {
+    width: 16px;
+  }
+  #cartIcon {
+    width: 16px;
   }
   
   .nav-link {
     color: #024b30;
     text-decoration: none;
+    padding: 10px;
   }
 
   .nav-link:active {
