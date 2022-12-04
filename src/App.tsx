@@ -8,18 +8,24 @@ import BuyingNotice from "./components/BuyingNotice";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 
+// Styles
+import {GlobalStyle, Wrapper} from "./App.styles";
+
 function App() {
 
   return (
-    <div className="App">
-      <NavBar/>
-      <WelcomeSection/>
-      <CaringNotice/>
-      <TopSellingProduct/>
-      <BuyingNotice/>
-      <Gallery/>
-      <Footer/>
-    </div>
+    <>
+      <GlobalStyle/>
+      <Wrapper className="App">
+        <NavBar/>
+        <WelcomeSection/>
+        <CaringNotice/>
+        <TopSellingProduct/>
+        <BuyingNotice/>
+        <Gallery/>
+        <Footer/>
+      </Wrapper>
+    </>
   )
 }
 
