@@ -29,7 +29,7 @@ export const Wrapper = styled.div`
     align-items: center;
     background: #024b30;
     color: white;
-    padding: 2vw;
+    padding: 2vw min(max(2px, 5vw), 300px);
   }
   
   .texts * {
@@ -38,17 +38,23 @@ export const Wrapper = styled.div`
   }
   
   .small-text {
-    font-size: min(max(5vw, 10px), 60px);
+    font-size: min(max(5vw, 10px), 50px);
     font-weight: 700;
   }
   
   .big-text {
-    font-size: min(max(7vw, 10px), 90px);
+    font-size: min(max(7vw, 10px), 60px);
   }
   
   .logo {
     display: inline-block;
     float: right;
-    height: min(max(10px, 10vw), 130px);
+    height: min(max(10px, 10vw), 110px);
+  }
+  
+  a {
+    position: absolute;
+    top: min(max(10px, 20vw), 220px);
+    left: min(max(10px, 20vw), 280px);
   }
 `;

@@ -1,7 +1,8 @@
-import { Wrapper } from "./WelcomeScreen.styles";
+import {Wrapper} from "./WelcomeScreen.styles";
 
 import mainPlant from '../assets/phat-ba-plant.png';
 import logoSimpleWhite from '../assets/sugarden-logo-simple-white.png';
+import {Button, ButtonType} from "./Utils";
 
 const WelcomeSection = () => {
   return (
@@ -13,6 +14,7 @@ const WelcomeSection = () => {
           <h1 className="big-text">SuGarden</h1>
         </div>
         <img className="logo" src={logoSimpleWhite}/>
+        <Button buttonType={ButtonType.WHITE} text="Xem ngay" href="#"/>
       </div>
     </Wrapper>
   )
