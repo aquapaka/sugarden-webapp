@@ -1,8 +1,10 @@
 const Footer = () => {
   return (
-    <nav>
-
-    </nav>
+    <Wrapper>
+      <InfoColumn>
+        <h3>Liên kết</h3>
+      </InfoColumn>
+    </Wrapper>
   )
 }
 
