@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
   
   @media(max-width: 550px) {
     body {
-      font-size: 10px;
+      font-size: 8px;
     }
   }
 `;
