@@ -25,7 +25,7 @@ export const ProductWrapper = styled.div`
   .image {
     height: min(20vw, 250px);
     object-fit: cover;
-    border: 1px solid green;
+    background-color: #024b30;
     border-radius: 15px;
   }
   

@@ -8,7 +8,7 @@ import {Wrapper, ImageRow} from "./Gallery.styles";
 const Gallery = () => {
   return (
     <Wrapper>
-      <h2>#SuGarden</h2>
+      <h1>#SuGarden</h1>
       <p>Chăm sóc Sen Đá khỏe mạnh</p>
       <ImageRow>
         <img src={gallery0} alt="Succulent image"/>

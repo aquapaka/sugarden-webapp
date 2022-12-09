@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   text-align: center;
+  color: #a9a6a5;
 `;
 
 export const ImageRow = styled.div`
@@ -13,7 +14,7 @@ export const ImageRow = styled.div`
     object-fit: cover;
     width: 100%;
     max-width: 23%;
-    height: 250px;
+    height: 220px;
     border-radius: 20px;
   }
   
