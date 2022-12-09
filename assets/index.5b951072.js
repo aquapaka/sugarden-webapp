@@ -168,7 +168,7 @@ Error generating stack: `+i.message+`
     top: min(max(10px, 20vw), 220px);
     left: min(max(10px, 20vw), 280px);
   }
-`,Bm="/sugarden-webapp/assets/phat-ba-plant.9e4f82e6.png",Um="/sugarden-webapp/assets/sugarden-logo-simple-white.5a56662a.png";var fs=(e=>(e[e.GREEN=0]="GREEN",e[e.WHITE=1]="WHITE",e))(fs||{});const od=({text:e,buttonType:t,href:n})=>C(Ym,{text:e,buttonType:t,href:n,children:e}),Ym=he.a`
+`,Bm="/sugarden-webapp/assets/phat-ba-plant.bb35b996.png",Um="/sugarden-webapp/assets/sugarden-logo-simple-white.5a56662a.png";var fs=(e=>(e[e.GREEN=0]="GREEN",e[e.WHITE=1]="WHITE",e))(fs||{});const od=({text:e,buttonType:t,href:n})=>C(Ym,{text:e,buttonType:t,href:n,children:e}),Ym=he.a`
   color: ${e=>e.buttonType===0?"#ffffff":"#024b30"};
   background: ${e=>e.buttonType===0?"#024b30":"#ffffff"};
   padding: 8px 24px;
@@ -237,7 +237,7 @@ Error generating stack: `+i.message+`
   .info p {
     color: #a9a6a5;
   }
-`,Km="/sugarden-webapp/assets/chau-xinh-xan.6a6ca28c.png",$m=()=>$(Zm,{children:[C("img",{src:Km,alt:"advertise image"}),$("div",{className:"info",children:[$("div",{children:[C("span",{className:"small-text",children:"\u0110\u1ED3ng gi\xE1 "}),C("span",{className:"big-text",children:"35K"})]}),$("p",{children:["Sen \u0110\xE1 size b\u1EA7u k\xE8m ch\u1EADu \u0111\u1EA5t nung",C("br",{})," mua 2 ch\u1EADu \u0111i k\xE8m bao b\xEC xinh x\u1EAFn"]}),C("div",{children:C(od,{text:"Xem Ngay",buttonType:fs.GREEN,href:"javascript:void(0);"})})]})]}),qm=he.section`
+`,Km="/sugarden-webapp/assets/chau-xinh-xan.4c9ca398.png",$m=()=>$(Zm,{children:[C("img",{src:Km,alt:"advertise image"}),$("div",{className:"info",children:[$("div",{children:[C("span",{className:"small-text",children:"\u0110\u1ED3ng gi\xE1 "}),C("span",{className:"big-text",children:"35K"})]}),$("p",{children:["Sen \u0110\xE1 size b\u1EA7u k\xE8m ch\u1EADu \u0111\u1EA5t nung",C("br",{})," mua 2 ch\u1EADu \u0111i k\xE8m bao b\xEC xinh x\u1EAFn"]}),C("div",{children:C(od,{text:"Xem Ngay",buttonType:fs.GREEN,href:"javascript:void(0);"})})]})]}),qm=he.section`
   padding: 80px 0;
   text-align: center;
 `,bm=he.div`
