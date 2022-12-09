@@ -5,7 +5,6 @@ export const Wrapper = styled.div`
   display: flex;
   padding: 80px 0;
   font-weight: 700;
-  overflow-y: clip;
 `;
 
 export const InfoColumn = styled.div`

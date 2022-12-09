@@ -9,7 +9,7 @@ import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 
 // Styles
-import {GlobalStyle, Wrapper} from "./App.styles";
+import {GlobalStyle, Wrapper, WrapperOfApp} from "./App.styles";
 
 import potCanhBuom from './assets/pots/canh buom.png';
 import potPhatBa from './assets/pots/phat ba.png';
@@ -33,13 +33,15 @@ function App() {
     <>
       <GlobalStyle/>
       <Wrapper className="App">
-        <NavBar/>
-        <WelcomeSection/>
-        <CaringNotice/>
-        <AdvertiseSection/>
-        <TopSellingProduct products={products}/>
-        <Gallery/>
-        <Footer/>
+        <WrapperOfApp>
+          <NavBar/>
+          <WelcomeSection/>
+          <CaringNotice/>
+          <AdvertiseSection/>
+          <TopSellingProduct products={products}/>
+          <Gallery/>
+          <Footer/>
+        </WrapperOfApp>
       </Wrapper>
     </>
   )
