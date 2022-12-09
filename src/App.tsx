@@ -5,7 +5,6 @@ import WelcomeSection from "./components/WelcomeSection";
 import CaringNotice from "./components/CaringNotice";
 import AdvertiseSection from "./components/AdvertiseSection";
 import TopSellingProduct, {Product} from "./components/TopSellingProduct";
-import BuyingNotice from "./components/BuyingNotice";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 
@@ -39,7 +38,6 @@ function App() {
         <CaringNotice/>
         <AdvertiseSection/>
         <TopSellingProduct products={products}/>
-        <BuyingNotice/>
         <Gallery/>
         <Footer/>
       </Wrapper>
