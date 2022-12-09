@@ -12,12 +12,20 @@ import Footer from "./components/Footer";
 // Styles
 import {GlobalStyle, Wrapper} from "./App.styles";
 
-import chau from './assets/chau-xinh-xan.png';
+import potCanhBuom from './assets/pots/canh buom.png';
+import potPhatBa from './assets/pots/phat ba.png';
+import potXienThit from './assets/pots/xien thit.png';
+import potMoroe from './assets/pots/moroe.png';
+import potTaiTho from './assets/pots/tai tho.png';
+import potNau from './assets/pots/nau.png';
 
 const products: Product[] = [
-  {imageUrl: chau, name: "Sen đá cánh bướm", price: 35000},
-  {imageUrl: chau, name: "Sen đá cánh bướm", price: 35000},
-  {imageUrl: chau, name: "Sen đá cánh bướm", price: 35000}
+  {imageUrl: potCanhBuom, name: "Sen đá cánh bướm", price: 35000},
+  {imageUrl: potPhatBa, name: "Sen đá phật bà", price: 35000},
+  {imageUrl: potXienThit, name: "Sen đá xiên thịt", price: 35000},
+  {imageUrl: potMoroe, name: "Sen đá moroe", price: 35000},
+  {imageUrl: potTaiTho, name: "Sen đá tai thỏ", price: 35000},
+  {imageUrl: potNau, name: "Sen đá nâu", price: 35000},
 ]
 
 function App() {

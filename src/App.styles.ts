@@ -3,8 +3,11 @@ import styled, {createGlobalStyle} from "styled-components";
 export const GlobalStyle = createGlobalStyle`
   
   body {
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(245,248,247,1) 75%, rgba(179,201,193,1) 100%, rgba(2,75,48,1) 100%);
+    background: rgb(162,191,181);
+    background: linear-gradient(0deg, rgba(162,191,181,1) 0%, rgba(236,242,240,1) 25%, rgba(221,232,228,1) 50%, rgba(236,242,240,1) 75%, rgba(162,191,181,1) 100%);
     margin: 0 10px;
+    font-size: 16px;
+    overflow-x: hidden;
   }
   
   * {
@@ -13,6 +16,12 @@ export const GlobalStyle = createGlobalStyle`
   
   h1 {
     color: #024b30;
+  }
+  
+  @media(max-width: 550px) {
+    body {
+      font-size: 10px;
+    }
   }
 `;
 

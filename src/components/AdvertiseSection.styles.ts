@@ -7,6 +7,7 @@ export const Wrapper = styled.section`
   
   img {
     width: 30vw;
+    filter: drop-shadow(2px -1px 4px rgba(0, 0, 0, 0.4));
   }
   
   .info {

@@ -7,9 +7,9 @@ const Footer = () => {
       <InfoColumn>
         <h1>Socials</h1>
         <ul>
-          <li><a href="#">Trang nhà</a></li>
-          <li><a href="#">Tips</a></li>
-          <li><a href="#">Về chúng tôi</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Youtube</a></li>
         </ul>
       </InfoColumn>
       <InfoColumn>
@@ -23,9 +23,9 @@ const Footer = () => {
       <InfoColumn>
         <h1>Contact</h1>
         <ul>
-          <li><a href="#">+84 98843-1064</a></li>
-          <li><a href="#">lemai212209@gmail.com</a></li>
-          <li><a href="#">Tp. Hồ Chí Minh, Việt Nam</a></li>
+          <li><a>+84 98843-1064</a></li>
+          <li><a>lemai212209@gmail.com</a></li>
+          <li><a>Tp. Hồ Chí Minh, Việt Nam</a></li>
         </ul>
       </InfoColumn>
       <FloatBottomText>All Right Reserved - 2022</FloatBottomText>

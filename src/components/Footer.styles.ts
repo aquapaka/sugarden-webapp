@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   position: relative;
   display: flex;
-  padding: 80px 0px;
+  padding: 80px 0;
   font-weight: 700;
-  overflow: clip;
+  overflow-y: clip;
 `;
 
 export const InfoColumn = styled.div`
@@ -34,9 +34,9 @@ export const FloatBottomText = styled.p`
 
 export const RightBackgroundImage = styled.img`
   position: absolute;
-  top: 50px;
+  top: 60px;
   right: -100px;
-  min-width: 350px;
+  min-width: 400px;
   width: 40%;
   z-index: -5;
   opacity: 0.4;

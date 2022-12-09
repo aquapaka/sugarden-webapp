@@ -4,7 +4,7 @@ export const Wrapper = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1vh 2vw;
+  padding: 2vh 2vw 1vh;
   
   @media(max-width: 512px) {
     .logo {
@@ -47,6 +47,7 @@ export const Wrapper = styled.nav`
   }
   
   .nav-link {
+    font-weight: 700;
     color: #024b30;
     text-decoration: none;
     padding: 10px;

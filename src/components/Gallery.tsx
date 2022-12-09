@@ -1,4 +1,4 @@
-import gallery0 from "../assets/gallery/gallery_0.jpg";
+import gallery0 from "../assets/gallery/gallery_0.webp";
 import gallery1 from "../assets/gallery/gallery_1.jpg";
 import gallery2 from "../assets/gallery/gallery_2.jpg";
 import gallery3 from "../assets/gallery/gallery_3.jpg";

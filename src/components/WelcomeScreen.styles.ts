@@ -19,6 +19,7 @@ export const Wrapper = styled.div`
     height: 50vw;
     max-height: 500px;
     z-index: 10;
+    filter: drop-shadow(2px -1px 4px rgba(0, 0, 0, 0.6));
   }
   
   .text-box {
@@ -44,6 +45,7 @@ export const Wrapper = styled.div`
   
   .big-text {
     font-size: min(max(7vw, 10px), 60px);
+    color: white;
   }
   
   .logo {

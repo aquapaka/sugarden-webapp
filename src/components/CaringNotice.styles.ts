@@ -1,17 +1,21 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.section`
   text-align: center;
-  margin-top: 5vw;
+  padding: 70px 0 20px;
 `;
 
 export const NoticesWrapper = styled.div`
-  margin: 3vw 0;
+  padding: 50px 0;
   display: flex;
   justify-content: space-evenly;
 `;
 
-export const NoticeWrapper = styled.div`
+type NoticeWrapperProps = {
+  imageSize: number
+}
+
+export const NoticeWrapper = styled.div<NoticeWrapperProps>`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,6 +23,6 @@ export const NoticeWrapper = styled.div`
   color: #a9a6a5;
   
   img {
-    width: 33%;
+    width: ${props => props.imageSize}px;
   }
 `;

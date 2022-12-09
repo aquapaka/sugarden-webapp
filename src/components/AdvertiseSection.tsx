@@ -14,7 +14,7 @@ const AdvertiseSection = () => {
         </div>
         <p>Sen Đá size bầu kèm chậu đất nung<br/> mua 2 chậu đi kèm bao bì xinh xắn</p>
         <div>
-          <Button text="Xem Ngay" buttonType={ButtonType.GREEN} href="#"/>
+          <Button text="Xem Ngay" buttonType={ButtonType.GREEN} href="javascript:void(0);"/>
         </div>
       </div>
     </Wrapper>

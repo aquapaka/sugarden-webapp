@@ -1,4 +1,4 @@
-import {Wrapper, ProductWrapper} from "./TopSellingProduct.styles";
+import {Wrapper, ProductsWrapper, ProductWrapper, ImageWrapper} from "./TopSellingProduct.styles";
 import React from "react";
 
 type Props = {
@@ -8,12 +8,12 @@ type Props = {
 const TopSellingProduct: React.FC<Props> = ({products}) => {
   return (
     <Wrapper>
-      <h2>SẢN PHẨM BÁN CHẠY</h2>
-      <div className="products">
+      <h1>SẢN PHẨM BÁN CHẠY</h1>
+      <ProductsWrapper>
         {products.map(product => (
           <ProductCard imageUrl={product.imageUrl} name={product.name} price={product.price}/>
         ))}
-      </div>
+      </ProductsWrapper>
     </Wrapper>
   )
 }
@@ -26,8 +26,10 @@ export type Product = {
 
 const ProductCard: React.FC<Product> = ({imageUrl,name,price}) => {
   return (
-    <ProductWrapper>
-      <img className="image" src={imageUrl} alt={name}/>
+    <ProductWrapper href="javascript:void(0);">
+      <ImageWrapper>
+        <img className="image" src={imageUrl} alt={name}/>
+      </ImageWrapper>
       <p className="name">{name}</p>
       <p className="price">{new Intl.NumberFormat('vi-VN').format(price)}đ</p>
     </ProductWrapper>
