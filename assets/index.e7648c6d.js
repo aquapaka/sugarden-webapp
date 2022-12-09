@@ -363,7 +363,7 @@ Error generating stack: `+i.message+`
   
   @media(max-width: 550px) {
     body {
-      font-size: 10px;
+      font-size: 8px;
     }
   }
 `,v0=he.div`
